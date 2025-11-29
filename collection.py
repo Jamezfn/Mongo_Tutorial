@@ -17,7 +17,6 @@ def main():
         # Get a List of Collections
         print("Databases:", client.list_database_names())
         print("Collections in eShopping:", db.list_collection_names())
-        
 
 if __name__ == '__main__':
     main()
